@@ -1,0 +1,61 @@
+.topnav {
+  background-color: #171717;
+  overflow: hidden;
+  width: 100vw;
+}
+
+/* .topnav:hover {
+  background-color: #2e2e2e;
+} */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav #home {
+  float: left;
+}
+
+.topnav #code {
+  color: #0044ff;
+}
+
+.topnav #jpg {
+  color: #09ff00;
+}
+
+.topnav #mp4 {
+  color: #b900ca;
+}
+
+.topnav #blend {
+  color: #EA7600;
+}
+
+.topnav #about {
+  color: #FF0022;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFFBFF;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF0022;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
