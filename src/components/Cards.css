@@ -1,0 +1,22 @@
+.cards-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 22vw;
+  height: 50vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+  border: 2px solid white;
+  align-items: center;
+}
+
+.card>h2 {
+  font-size: 1.8rem;
+}
