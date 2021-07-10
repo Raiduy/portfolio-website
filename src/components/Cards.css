@@ -13,10 +13,49 @@
   margin-right: 50px;
   margin-top: 50px;
   text-align: center;
-  border: 2px solid white;
+  border: 3.5px solid white;
+  border-radius: 20px;
   align-items: center;
 }
 
 .card>h2 {
   font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 60px;
+  filter: invert(100%);
+}
+
+.coding {
+  border-color: #0044ff;
+  box-shadow: 5px 5px 50px #0044ff
+}
+
+.coding:hover {
+  border-color: #ffffff;
+  box-shadow: 5px 5px 50px #ffffff;
+}
+
+.media {
+  border-color: #09ff00;
+  box-shadow: 5px 5px 50px #09ff00;
+}
+
+.media:hover {
+  border-color: #ffffff;
+  box-shadow: 5px 5px 50px #ffffff;
+}
+
+.about {
+  border-color: #ff0022;
+  box-shadow: 5px 5px 50px #ff0022;
+}
+
+.about:hover {
+  border-color: #ffffff;
+  box-shadow: 5px 5px 50px #ffffff;
 }
