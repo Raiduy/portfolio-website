@@ -44,7 +44,7 @@ img {
 }
 .coding:active {
   border-color: #171717;
-  box-shadow: 5px 5px 50px #171717;
+  box-shadow: 5px 5px 50px #141414;
   animation: none;
 }
 
@@ -61,7 +61,7 @@ img {
 }
 .media:active {
   border-color: #171717;
-  box-shadow: 5px 5px 50px #171717;
+  box-shadow: 5px 5px 50px #141414;
   animation: none;
 }
 
@@ -78,7 +78,7 @@ img {
 }
 .about:active {
   border-color: #171717;
-  box-shadow: 5px 5px 50px #171717;
+  box-shadow: 5px 5px 50px #141414;
   animation: none;
 }
 
