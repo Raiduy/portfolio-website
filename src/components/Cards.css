@@ -42,6 +42,11 @@ img {
   box-shadow: 5px 5px 50px #ffffff;
   animation: none;
 }
+.coding:active {
+  border-color: #171717;
+  box-shadow: 5px 5px 50px #171717;
+  animation: none;
+}
 
 .media {
   border-color: #09ff00;
@@ -49,10 +54,14 @@ img {
   animation: border-flicker-green 3s linear infinite;
   /* animation-delay: 1.5s; */
 }
-
 .media:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;
+  animation: none;
+}
+.media:active {
+  border-color: #171717;
+  box-shadow: 5px 5px 50px #171717;
   animation: none;
 }
 
@@ -62,10 +71,14 @@ img {
   animation: border-flicker-red 3s linear infinite;
   /* animation-delay: 3s; */
 }
-
 .about:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;
+  animation: none;
+}
+.about:active {
+  border-color: #171717;
+  box-shadow: 5px 5px 50px #171717;
   animation: none;
 }
 
