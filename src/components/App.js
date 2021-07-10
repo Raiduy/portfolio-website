@@ -7,7 +7,7 @@ function App() {
     <div class="application">
       <div class="application-content">
         <h1>
-          Hello there
+          Hi there, Radu here
         </h1>
         <h2>
           Pick your poison

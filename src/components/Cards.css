@@ -16,6 +16,7 @@
   border: 3.5px solid white;
   border-radius: 20px;
   align-items: center;
+  cursor: pointer;
 }
 
 .card>h2 {
@@ -32,30 +33,92 @@ img {
 
 .coding {
   border-color: #0044ff;
-  box-shadow: 5px 5px 50px #0044ff
+  box-shadow: 5px 5px 50px #0044ff;
+  animation: border-flicker-blue 3s linear infinite;
 }
 
 .coding:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;
+  animation: none;
 }
 
 .media {
   border-color: #09ff00;
   box-shadow: 5px 5px 50px #09ff00;
+  animation: border-flicker-green 3s linear infinite;
+  /* animation-delay: 1.5s; */
 }
 
 .media:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;
+  animation: none;
 }
 
 .about {
   border-color: #ff0022;
   box-shadow: 5px 5px 50px #ff0022;
+  animation: border-flicker-red 3s linear infinite;
+  /* animation-delay: 3s; */
 }
 
 .about:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;
+  animation: none;
+}
+
+@keyframes border-flicker-blue {
+  0% {
+    box-shadow: 5px 5px 20px #0044ff;
+  }
+  25% {
+    box-shadow: 5px 5px 50px #0044ff;
+  }
+  50% {
+    box-shadow: 5px 5px 20px #0044ff;
+  }
+  75% {
+    box-shadow: 5px 5px 20px #0044ff;
+  }
+  100% {
+    box-shadow: 5px 5px 20px #0044ff;
+  }
+}
+
+@keyframes border-flicker-green {
+  0% {
+    box-shadow: 5px 5px 20px #09ff00;
+  }
+  25% {
+    box-shadow: 5px 5px 20px #09ff00;
+  }
+  50% {
+    box-shadow: 5px 5px 50px #09ff00;
+  }
+  75% {
+    box-shadow: 5px 5px 20px #09ff00;
+  }
+  100% {
+    box-shadow: 5px 5px 20px #09ff00;
+  }
+}
+
+@keyframes border-flicker-red {
+  0% {
+    box-shadow: 5px 5px 20px #ff0022;
+  }
+  25% {
+    box-shadow: 5px 5px 20px #ff0022;
+  }
+  50% {
+    box-shadow: 5px 5px 20px #ff0022;
+  }
+  75% {
+    box-shadow: 5px 5px 60px #ff0022;
+  }
+  100% {
+    box-shadow: 5px 5px 20px #ff0022;
+  }
 }
