@@ -9,29 +9,45 @@
 .card {
   color: #ffffff;
   text-decoration: none;
-  width: 22vw;
-  height: 50vh;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
   text-align: center;
+  
+  width: 22vw;
+  height: 350px;
+  
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-top: 40px;
+  padding: 0.5vw;
+
   border: 3.5px solid white;
   border-radius: 20px;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
+}
+
+img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  height: 5vw;
+  filter: invert(100%);
 }
 
 .card>h2 {
   font-size: 1.8rem;
-  padding-bottom: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-img {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  height: 60px;
-  filter: invert(100%);
+.card>p {
+  position: relative;
+  font-size: 1.1rem;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
+
 
 .coding {
   border-color: #0044ff;
@@ -53,7 +69,6 @@ img {
   border-color: #09ff00;
   box-shadow: 5px 5px 50px #09ff00;
   animation: border-flicker-green 3s linear infinite;
-  /* animation-delay: 1.5s; */
 }
 .media:hover {
   border-color: #ffffff;
@@ -70,7 +85,6 @@ img {
   border-color: #ff0022;
   box-shadow: 5px 5px 50px #ff0022;
   animation: border-flicker-red 3s linear infinite;
-  /* animation-delay: 3s; */
 }
 .about:hover {
   border-color: #ffffff;
