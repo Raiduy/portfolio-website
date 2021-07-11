@@ -1,3 +1,4 @@
+import './MediaPage.css';
 import ContactMe from "../components/ContactMe.js";
 import Navbar from "../components/Navbar.js";
 

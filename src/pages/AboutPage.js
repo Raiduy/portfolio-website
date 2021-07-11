@@ -1,5 +1,6 @@
+import './AboutPage.css';
 import Navbar from "../components/Navbar.js";
-import ContactMe from '../components/ContactMe.js'
+import ContactMe from '../components/ContactMe.js';
 
 function Coding() {
   return(
