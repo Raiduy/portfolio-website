@@ -7,6 +7,8 @@
 }
 
 .card {
+  color: #ffffff;
+  text-decoration: none;
   width: 22vw;
   height: 50vh;
   margin-left: 50px;
@@ -36,7 +38,6 @@ img {
   box-shadow: 5px 5px 50px #0044ff;
   animation: border-flicker-blue 3s linear infinite;
 }
-
 .coding:hover {
   border-color: #ffffff;
   box-shadow: 5px 5px 50px #ffffff;

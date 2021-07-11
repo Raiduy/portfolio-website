@@ -1,18 +1,26 @@
-import './App.scss';
-import Cards from './Cards.js';
+import { Route, Switch } from 'react-router-dom';
+import LandingPage from '../pages/LandingPage.js';
+import CodingPage from '../pages/CodingPage.js';
+import MediaPage from '../pages/MediaPage.js';
+import AboutPage from '../pages/AboutPage.js';
 
 function App() {
   return (
     <div class="application">
-      <div class="application-content">
-        <h1>
-          Hi there, Radu here
-        </h1>
-        <h2>
-          Pick your poison
-        </h2>
-        <Cards />
-      </div>
+      <Switch>
+        <Route path='/' exact={true}>
+          <LandingPage />
+        </Route>
+        <Route path='/code'>
+          <CodingPage />
+        </Route>
+        <Route path='/media'>
+          <MediaPage />
+        </Route>
+        <Route path='/about'>
+          <AboutPage />
+        </Route>
+      </Switch>
     </div>
   );
 }
