@@ -38,8 +38,8 @@
   border-bottom: 2px solid #0044ff;
 }
 .topnav #code:hover {
-  color: #772D8B;
-  border-bottom: 2px solid #772D8B;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .topnav #jpg {
@@ -47,8 +47,8 @@
   border-bottom: 2px solid #09ff00;
 }
 .topnav #jpg:hover {
-  color: #772D8B;
-  border-bottom: 2px solid #772D8B;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .topnav #about {
@@ -56,14 +56,8 @@
   border-bottom: 2px solid #FF0022;
 }
 .topnav #about:hover {
-  color: #772D8B;
-  border-bottom: 2px solid #772D8B;
-}
-
-/* Change the color of links on hover */
-.topnav p:hover {
-  color: #772D8B;
-  border-bottom: 2px solid #772D8B;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 /* Add a color to the active/current link */
