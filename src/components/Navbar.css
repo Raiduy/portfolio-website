@@ -1,7 +1,10 @@
 .topnav {
   background-color: #141414;
   overflow: hidden;
-  width: 99.5vw;
+  /* width: 99.5vw; */
+  margin-right: 2vw;
+  margin-left: 2vw;
+  
 }
 
 /* .topnav:hover {
@@ -9,47 +12,61 @@
 } */
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav p {
   float: right;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 17px 20px;
   text-decoration: none;
   font-size: 17px;
+  margin: 0px;
 }
 
 .topnav #home {
   float: left;
+  color: white;
+  border-bottom: 2px solid white;
+}
+.topnav #home:hover {
+  color: #772D8B;
+  border-bottom: 2px solid #772D8B;
 }
 
 .topnav #code {
   color: #0044ff;
+  border-bottom: 2px solid #0044ff;
+}
+.topnav #code:hover {
+  color: #772D8B;
+  border-bottom: 2px solid #772D8B;
 }
 
 .topnav #jpg {
   color: #09ff00;
+  border-bottom: 2px solid #09ff00;
 }
-
-.topnav #mp4 {
-  color: #b900ca;
-}
-
-.topnav #blend {
-  color: #EA7600;
+.topnav #jpg:hover {
+  color: #772D8B;
+  border-bottom: 2px solid #772D8B;
 }
 
 .topnav #about {
   color: #FF0022;
+  border-bottom: 2px solid #FF0022;
+}
+.topnav #about:hover {
+  color: #772D8B;
+  border-bottom: 2px solid #772D8B;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #FFFBFF;
-  color: black;
+.topnav p:hover {
+  color: #772D8B;
+  border-bottom: 2px solid #772D8B;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav p.active {
   background-color: #FF0022;
   color: white;
 }

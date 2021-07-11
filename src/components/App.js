@@ -1,5 +1,4 @@
 import './App.scss';
-import Navbar from './Navbar.js'
 import Cards from './Cards.js';
 
 function App() {
