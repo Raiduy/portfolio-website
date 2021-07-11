@@ -150,3 +150,48 @@ img {
     box-shadow: 5px 5px 20px #ff0022;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    height: 120px;
+  }
+
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    padding-top: 10px;
+    padding-right: 10vw;
+    height: 40px;
+  }
+
+  .inner-row>h2 {
+    padding-bottom: 0px;
+    font-size: 1.6rem;
+  }
+  
+  .card>p {
+    position: relative;
+    font-size: 1rem;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .card.about {
+    margin-bottom: 100px;
+  }
+}
