@@ -20,6 +20,7 @@
   text-decoration: none;
   font-size: 17px;
   margin: 0px;
+  cursor: pointer;
 }
 
 .topnav #home {
