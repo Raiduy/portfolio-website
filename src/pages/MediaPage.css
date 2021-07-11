@@ -1,0 +1,6 @@
+.media-wrapper>hr {
+  height: 3px;
+  color: #09ff00;
+  background-color: #09ff00;
+  box-shadow: 0px 0px 50px #09ff00;
+}

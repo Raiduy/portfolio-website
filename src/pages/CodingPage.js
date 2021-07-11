@@ -7,7 +7,9 @@ function Coding() {
     <div class="coding-wrapper">
       <Navbar />
       <p>Haha, coding pagee</p>
+      <hr/>
       <ContactMe />
+      <hr/>
     </div>
   );
 }

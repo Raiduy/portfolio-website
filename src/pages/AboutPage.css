@@ -1,0 +1,33 @@
+.about-wrapper>hr {
+  height: 3px;
+  color: #FF0022;
+  background-color: #FF0022;
+  box-shadow: 0px 0px 50px #FF0022;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-intro {
+  width: 80vw;
+  text-align: center;
+}
+
+#jack {
+  font-style: italic;
+  color: #FF0022
+}
+
+.about-contents {
+  width: 80vw;
+  left: 100px;
+}
+
+section:nth-child(even) {
+  text-align: right;
+}
+

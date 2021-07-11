@@ -1,0 +1,6 @@
+.coding-wrapper>hr {
+  height: 3px;
+  color: #0044ff;
+  background-color: #0044ff;
+  box-shadow: 0px 0px 50px #0044ff;
+}
