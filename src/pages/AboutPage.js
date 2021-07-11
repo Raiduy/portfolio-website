@@ -43,7 +43,7 @@ function AboutPage() {
 
           <section class="about-photo">
             <h2>
-              Photo
+              Photography
             </h2>
             <p>
               Photo stuff things
@@ -52,7 +52,7 @@ function AboutPage() {
 
           <section class="about-video">
             <h2>
-              Video
+              Videography
             </h2>
             <p>
               Video stuff things

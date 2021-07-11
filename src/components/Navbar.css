@@ -1,6 +1,7 @@
 .topnav {
   background-color: #141414;
   overflow: hidden;
+  z-index: 2;
   /* width: 99.5vw; */
   margin-right: 2vw;
   margin-left: 2vw;
@@ -70,4 +71,51 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .topnav {
+    background-color: #141414;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    margin: none;
+    z-index: 2;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topnav p {
+    padding: 3vh 4.5vw;
+  }
+
+  .topnav #home {
+    float: left;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: none;
+  }
+  
+  .topnav #code {
+    color: #0044ff;
+    border-top: 2px solid #0044ff;
+  }
+  
+  .topnav #jpg {
+    color: #09ff00;
+    border-top: 2px solid #09ff00;
+    border-bottom: none;
+  }
+
+  .topnav #about {
+    color: #FF0022;
+    border-top: 2px solid #FF0022;
+    border-bottom: none;
+  }
+  
 }
