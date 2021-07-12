@@ -16,7 +16,6 @@ h1 {
   font-size: 3rem;
   letter-spacing: .4em;
   text-align: center;
-  text-justify: auto;
   text-shadow: 2px 2px #772D8B;
 }
 
@@ -24,3 +23,12 @@ h2 {
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
