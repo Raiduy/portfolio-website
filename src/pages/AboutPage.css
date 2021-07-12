@@ -24,7 +24,13 @@
 
 .about-contents {
   width: 80vw;
-  left: 100px;
+  /* left: 100px; */
+  margin-bottom: 100px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 section:nth-child(even) {
