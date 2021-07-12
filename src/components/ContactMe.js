@@ -1,11 +1,6 @@
 import './ContactMe.css'
 import { SocialIcon } from 'react-social-icons';
 
-function copyToClipboard(e) {
-  navigator.clipboard.writeText("radu.apsan@gmail.com")
-  document.getElementById("copy-me").innerHTML="Email copied";
-}
-
 function ContactMe() {
   return(
     <div class="contact-container">
@@ -26,10 +21,9 @@ function ContactMe() {
           <p>
             You can email me if you're feeling professional :)
           </p>
-          <div class="email" onClick={copyToClipboard}>
+          <div class="email">
             <SocialIcon network="email" bgColor="white"/>
             <p id="my-email">radu.apsan@gmail.com</p>
-            <p id="copy-me">Click me</p>
           </div>
         </div>
         <div class="contact-social-media col">
