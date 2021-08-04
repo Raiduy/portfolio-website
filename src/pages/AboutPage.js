@@ -76,7 +76,7 @@ function AboutPage() {
               Videography
             </h2>
             <p>
-              In 10th grade I applied for a course on making documentaries.
+              In 9th grade I took a course on producing documentaries.
               That's when my passion for filmmaking, and especially video 
               editing started. I got really comfortable with all types of 
               cameras and editing tools. In my spare time, I study filmmaking

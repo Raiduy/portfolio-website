@@ -13,7 +13,7 @@ function ContactMe() {
             Hi there, I hope you liked the website, it was pretty fun to make it.
             <br/>
             <br/>
-            Considering the fact that I'm not quite into web design, and even 
+            Considering the fact that I'm not quite into web development, and even 
             less so into front end development, I think I did a pretty good job.
           </p>
         </div>
